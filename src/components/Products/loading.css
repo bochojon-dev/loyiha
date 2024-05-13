@@ -1,0 +1,81 @@
+.loading {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.loading__list-item {
+  position: relative;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  border: 1px solid #c8c4c4;
+  border-radius: 15px;
+}
+.loading__img {
+  width: 320px;
+  height: 190px;
+  background-color: #d7d4d4;
+}
+.loading__btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.loading__list-title {
+  width: 224px;
+  height: 20px;
+  background-color: #d7d4d4;
+}
+.loadings__list-text{
+  width: 324px;
+  height: 50px;
+  background-color: #d7d4d4;
+}
+.b {
+  width: 20px;
+  height: 20px;
+  background-color: #d7d4d4;
+}
+.loading__span {
+  width: 60px;
+  height: 20px;
+  background-color: #d7d4d4;
+}
+.d {
+  display: flex;
+  gap: 50px;
+} 
+.loading-pp {
+  width: 100px;
+  height: 20px;
+  background-color: #d7d4d4;
+}
+.loading__list-card div {
+  width: 70px;
+  height: 20px;
+  background-color: #d7d4d4;
+}
+.loading__list-card button{
+  width: 100px;
+  height: 30px;
+  background-color: #d7d4d4;
+  border: none;
+}
+.loading__list-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1215px) {
+  .loading {
+    justify-content: space-around;
+  }
+}

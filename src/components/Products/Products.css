@@ -1,0 +1,132 @@
+.products {
+  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-right: 40px;
+}
+.products__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.products__card-list {
+  display: flex;
+  gap: 15px;
+}
+.products__title {
+  font-size: 30px;
+}
+.products__card-link:hover {
+  color: rgb(0, 255, 136);
+}
+.products__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.products__list-item {
+  width: 350px;
+  padding: 15px;
+  height: 430px;
+  border-radius: 15px;
+  border: 1px solid #ececec;
+  position: relative;
+}
+.imges{
+  max-width: 350px;
+  height: 200px;
+  text-align: center;
+}
+.products__list-img {
+  text-align: center;
+  margin-bottom: 20px;
+  transition: .3s;
+  width: 300px;
+  top: 2000px;
+  height: 190px;
+  margin-bottom: 20px;
+}
+.products__list-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  /* margin-top: 15px;
+  font-size: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-bottom: 20px;
+  font-size: 16px;
+  position: absolute;
+  font-weight: 600; */
+}
+.products__list-text {
+  font-size: 14px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-bottom: 20px;
+  top: 270px;
+  font-size: 16px;
+  position: absolute;
+  font-weight: 600;
+}
+.span {
+  color: #929292;
+  margin-top: 50px;
+}
+.products__list-card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.products__list-btn {
+  padding: 7px 12px;
+  background-color: red;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  border: none;
+}
+.category {
+  color: yellowgreen;
+  margin-top: 80px;
+  display: flex;
+  gap: 50px;
+}
+.btn {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 5px 9px;
+  border: none;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 1215px) {
+  .products__list {
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .products__card {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 818px) {
+  .products__list-title {
+    width: 100%;
+    max-width: 700px;
+  }
+}
+@media only screen and (max-width: 818px) {
+  .products__card-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}

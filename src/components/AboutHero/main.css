@@ -1,0 +1,118 @@
+.wrapper {
+  padding-top: 130px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+}
+.wrappers {
+  padding-top: 130px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  background-color: #DCEAF5;
+}
+.wrapper__start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.exp__btn {
+  text-align: center;
+  background-color: #F58A07;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.exp__btn a {
+  color: #fff;
+  text-align: center;
+}
+.wrapper__title {
+  font-size: 64px;
+  margin: 0;
+  line-height: 70px;
+  max-width: 618px;
+}
+.wrapper__text {
+  font-size: 18px;
+  max-width: 510px;
+  color: #5b5b5b;
+}
+.wrapper__btn {
+  background-color: #F58A07;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+}
+.wrapper__group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  color: #5b5b5b;
+}
+.wrapper__group p{
+  margin: 0;padding: 0;
+}
+.img {
+  width: 600px;
+}
+.wrapper__link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #F58A07;
+}
+.wrapper__link svg {
+  padding-top: 5px;
+}
+@media only screen and (max-width: 1150px) {
+  .wrapper__title {
+    font-size: 45px;
+    margin-bottom: 25px;
+    line-height: 55px;
+  }
+  .img {
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .wrapper__title {
+    font-size: 30px;
+    margin-bottom: 25px;
+    line-height: 45px;
+  }
+  .img {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .wrapper__title {
+    font-size: 40px;
+    margin-bottom: 25px;
+    line-height: 45px;
+  }
+  .img {
+    width: 100%;
+  }
+  .wrapper {
+    padding-top: 100px;
+  }
+  .wrapper__start {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .wrapper__title {
+    font-size: 25px;
+    margin-bottom: 25px;
+    line-height: 35px;
+  }
+  .wrapper__text {
+    font-size: 15px;
+  }
+}

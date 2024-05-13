@@ -1,0 +1,83 @@
+.projct.active .header {
+  background-color: black;
+}
+.projct.active header fill {
+  fill: #949090;
+}
+.projct.active .header__list-link {
+  color: #fff;
+}
+.projct.active .header__list-link:active {
+  color: blue;
+}
+.projct.active .dark,
+.dars {
+  background-color: #fff;
+  color: black;
+}
+.projct.active .darks {
+  background-color: #fff;
+  color: black;
+}
+.projct.active .header__btn {
+  background-color: aqua;
+}
+.projct.active .hero {
+  background-color: black;
+  color: #fff;
+}
+.projct.active .hero__title {
+  color: #fff;
+}
+.projct.active .hero__text {
+  color: #fff;
+}
+.projct.active footer {
+  background-color: black;
+  border-top: 2px solid #7f7f7f;
+}
+.projct.active .hero__span {
+  color: #fff;
+}
+.projct.active .hero__link {
+  color: #fff;
+} 
+.projct.active .news {
+  background-color: black;
+}
+.projct.active .news__list-item {
+  background-color: rgb(14, 12, 12);
+  color: #857676;
+}
+.projct.active .news__list-text {
+  color: #6c6b6b;
+}
+.projct.active .header__menu-span {
+  background-color: #fff;
+}
+.projct.active .wrapper {
+  background-color: black;
+  color: #767676;
+}
+.projct.active .wrappers {
+  background-color: black;
+  color: #767676;
+}
+.projct.active .experience {
+  background-color: black;
+  color: #9e9999;
+}
+.projct.active .experience__list-title {
+  color: #767676;
+}
+.projct.active .products {
+  background-color: black;
+  color: #fff;
+}
+@media only screen and (max-width: 845px) {
+  .projct.active .header__nav {
+    background-color: black;
+    border: 2px solid #7f7f7f;
+  }
+}
+
